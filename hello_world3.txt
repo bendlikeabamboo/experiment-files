@@ -1,0 +1,5 @@
+Hello,
+
+This is the third iteration of the GitHub experiments. I'm trying to learn how to properly use Git version control system.
+
+This time, I'll try to perform an !!TODO@mbalmeo32
