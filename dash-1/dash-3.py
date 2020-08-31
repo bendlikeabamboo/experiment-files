@@ -29,8 +29,7 @@ def update_graph(input_data):
     start = datetime.datetime(2020, 5, 5)
     end = datetime.datetime.now()
     df = web.DataReader(input_data, 'yahoo', start, end)
-    try:
-        graph = dcc.Graph(
+    graph = dcc.Graph(
         id='example', 
         figure={
             'data':[
@@ -46,8 +45,6 @@ def update_graph(input_data):
             }
         }
     )
-    except:
-        print('Loading...')
     return graph
 
 if __name__ == '__main__':
